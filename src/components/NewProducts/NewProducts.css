@@ -1,0 +1,131 @@
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  
+  h1 {
+    margin: 10px;
+  }
+  
+  .MainInput{
+      display: flex;
+      flex-direction: column;
+        justify-content: center;
+        align-items: start;
+      margin: 10px;
+      width: 100%;
+      flex: 1;
+  }
+  input{
+      height: 40px;
+      margin: 20px 0px;
+      border-radius: .7rem;
+      border: none !important;
+      font-size: 1.2rem;
+  }
+  
+  input[type="checkbox"]{
+      transform: scale(1.6);
+      cursor: pointer;
+      position: relative;
+      top:.8em;
+      margin: 10px 10px;
+      
+  
+  
+  }
+  .submit{
+      background:#3f88b5 ;
+      width: 20% !important;
+      padding: 10px 15px;
+      border-radius: 25px;
+      border: none;
+  }
+  
+  input:focus{
+      outline:none!important;
+  }
+  
+  .add-product-form {
+    /* border: 1px solid #ccc; */
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+  }
+  
+  .add-product-form h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .add-product-form input[type="text"],
+  .add-product-form input[type="number"] {
+      width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+    
+  }
+  
+  .add-product-form label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .add-product-form label input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .add-product-form button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-product-form button:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  .product-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .product-list th,
+  .product-list td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .product-list th:last-child,
+  .product-list td:last-child {
+    text-align: center;
+  }
+  
+  .product-list button {
+    padding: 6px 10px;
+    background-color: #ff5050;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .product-list button:not(:last-child) {
+    margin-right: 5px;
+  }
+  
+  .product-list input[type="text"],
+  .product-list input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }

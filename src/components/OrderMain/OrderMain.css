@@ -1,0 +1,11 @@
+.OrderMain {
+  width: 97%;
+  height: 97vh;
+}
+.OrderMain h1 {
+  margin: 30px 0px;
+}
+.OrderMain .OrderTable .top-information,
+.OrderMain .OrderTable .bottom-information {
+  padding: 0 20px;
+}/*# sourceMappingURL=OrderMain.css.map */
